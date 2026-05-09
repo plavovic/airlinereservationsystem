@@ -1,8 +1,6 @@
 USE AirlineReservationSystem;
 
--- =====================================================
 -- AIRPORTS
--- =====================================================
 
 INSERT INTO Airports (AirportCode, AirportName, City, Country)
 VALUES
