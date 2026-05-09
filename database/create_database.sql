@@ -1,0 +1,2 @@
+CREATE DATABASE AirlineReservationSystem;
+USE AirlineReservationSystem;
