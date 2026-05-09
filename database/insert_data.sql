@@ -1,6 +1,10 @@
 USE AirlineReservationSystem;
+-- TO USE DATABASE IF NOT USED BEFORE
+
+-- SHOULD ADD TABLES ONE BY ONE
 
 -- AIRPORTS
+
 
 INSERT INTO Airports (AirportCode, AirportName, City, Country)
 VALUES
