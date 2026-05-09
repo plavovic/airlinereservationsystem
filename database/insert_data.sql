@@ -158,3 +158,10 @@ VALUES
 (13, 1500.00, 'Bank Transfer'),
 (14, 390.00, 'Debit Card'),
 (15, 920.00, 'Credit Card');
+
+INSERT INTO FlightEmployees(FlightID, EmployeeID, RoleOnFlight)
+VALUES
+(1, 1, 'Pilot'),
+(1, 2, 'Flight Attendant'),
+(2, 5, 'Pilot'),
+(2, 6, 'Flight Attendant');

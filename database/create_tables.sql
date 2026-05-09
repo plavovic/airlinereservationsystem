@@ -91,3 +91,18 @@ CREATE TABLE Payments (
         REFERENCES Bookings(BookingID)
         ON DELETE CASCADE
 );
+
+CREATE TABLE FlightEmployees (
+    FlightEmployeeID INT PRIMARY KEY AUTO_INCREMENT,
+    FlightID INT NOT NULL,
+    EmployeeID INT NOT NULL,
+    RoleOnFlight VARCHAR(50),
+    
+    FOREIGN KEY (FlightID)
+        REFERENCES Flights(FlightID)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY (EmployeeID)
+        REFERENCES Employees(EmployeeID)
+        ON DELETE CASCADE
+);
